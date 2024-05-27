@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematik O'yin</title>
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        button, input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Matematik O'yin</h1>
+        <button id="startButton">Boshlash</button>
+        <div id="question"></div>
+        <input type="text" id="answerInput" placeholder="Javobni kiriting">
+        <button id="submitButton">Javob Berish</button>
+        <div id="feedback"></div>
+        <button id="playAgainButton" style="display:none;">Yana o'ynash</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
